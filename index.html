@@ -3,105 +3,24 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Both_Ventures</title>
-<meta name="description" content="Both_Ventures — an agentic venture platform. Punta del Este, Uruguay. Operating globally.">
-<meta property="og:title" content="Both_Ventures">
-<meta property="og:description" content="An agentic venture platform. Not either/or. Both.">
-<meta name="theme-color" content="#0A0A08">
-<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 32'%3E%3Ccircle cx='15' cy='16' r='12' fill='%230A0A08'/%3E%3Ccircle cx='49' cy='16' r='11.5' fill='none' stroke='%230A0A08' stroke-width='2'/%3E%3C/svg%3E">
+<title>both.ventures</title>
+<meta name="theme-color" content="#000000">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Space+Mono&display=swap" rel="stylesheet">
 <style>
-  :root {
-    --black: #0A0A08;
-    --white: #FFFFFF;
-    --warm-gray: #D4D0C8;
-    --panel-lt: #EEEAE2;
-    --text-dark: #1C1C1A;
-    --text-dim: #888880;
-    --mid-slate: #4A4845;
-    --accent: #939324;
-    --mono: 'Space Mono', 'Courier New', monospace;
-  }
-  * { box-sizing: border-box; margin: 0; padding: 0; }
-  html, body { height: 100%; }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  html, body { height: 100%; background: #000; }
   body {
-    font-family: var(--mono);
-    font-weight: 400;
-    background: var(--panel-lt);
-    color: var(--text-dark);
-    -webkit-font-smoothing: antialiased;
-  }
-  main { display: grid; grid-template-columns: 1fr 1fr; min-height: 100vh; min-height: 100svh; }
-
-  /* Left — what it is / what it is becoming */
-  .mark-panel {
-    background: var(--black);
     display: flex; align-items: center; justify-content: center;
-    gap: clamp(14px, 2.2vw, 28px);
-  }
-  .circle { width: clamp(64px, 11vw, 168px); aspect-ratio: 1; border-radius: 50%; }
-  .circle-filled { background: var(--white); }
-  .circle-outline { border: 1px solid var(--white); }
-
-  /* Right — wordmark, statement, tagline */
-  .text-panel {
-    display: flex; flex-direction: column; justify-content: space-between;
-    padding: clamp(28px, 4.5vw, 64px);
-    gap: 48px;
-  }
-  .top { display: flex; justify-content: space-between; align-items: baseline; gap: 16px; flex-wrap: wrap; }
-  .wordmark { font-size: clamp(14px, 1.3vw, 18px); letter-spacing: 0.02em; }
-  .meta { font-size: 9px; letter-spacing: 0.14em; text-transform: uppercase; color: var(--text-dim); }
-
-  .statement { max-width: 34ch; }
-  h1 {
-    font-weight: 700;
-    font-size: clamp(2.2rem, 5.2vw, 5rem);
-    line-height: 1.05;
-    letter-spacing: -0.02em;
-    text-transform: uppercase;
-    text-wrap: balance;
-    margin-bottom: 28px;
-  }
-  .rule { width: 48px; height: 2px; background: var(--accent); margin-bottom: 24px; }
-  .lede { font-size: clamp(12px, 1vw, 14px); line-height: 1.65; letter-spacing: 0.02em; color: var(--mid-slate); text-wrap: pretty; }
-  .place { margin-top: 20px; font-size: 9px; letter-spacing: 0.14em; text-transform: uppercase; color: var(--text-dim); }
-
-  .tagline {
-    font-weight: 700;
-    font-size: clamp(12px, 1.1vw, 15px);
-    letter-spacing: 0.1em;
-    line-height: 1.5;
-    text-transform: uppercase;
-  }
-
-  @media (max-width: 760px) {
-    main { grid-template-columns: 1fr; grid-template-rows: 38svh auto; }
-    .text-panel { padding: 28px 16px 40px; gap: 40px; }
+    min-height: 100vh; min-height: 100svh;
+    font-family: 'Space Mono', 'Courier New', monospace;
+    color: #D4D0C8;
+    font-size: clamp(16px, 2vw, 24px);
+    letter-spacing: 0.04em;
+    -webkit-font-smoothing: antialiased;
   }
 </style>
 </head>
-<body>
-<main>
-  <div class="mark-panel" aria-hidden="true">
-    <div class="circle circle-filled"></div>
-    <div class="circle circle-outline"></div>
-  </div>
-  <section class="text-panel">
-    <div class="top">
-      <span class="wordmark">Both_Ventures</span>
-      <span class="meta">V0.1.0 · Q-04.26 · PDE</span>
-    </div>
-    <div class="statement">
-      <h1>Coming soon</h1>
-      <div class="rule"></div>
-      <p class="lede">An agentic venture platform. A shared operating intelligence — human and artificial — that builds, accelerates, and interconnects deep&#8209;tech ventures.</p>
-      <p class="place">Punta del Este, Uruguay · Operating globally</p>
-    </div>
-    <p class="tagline">Not either/<br>or. Both.</p>
-  </section>
-</main>
-</body>
+<body>both.ventures</body>
 </html>
